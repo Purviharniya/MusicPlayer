@@ -1,0 +1,323 @@
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  .bg-bluishgreen{
+    min-height:100vh;
+    background: linear-gradient(to right, #0069C7 0%,#00E2D6 100%);
+  }
+  
+  .song-sidebar{
+    background: linear-gradient(to right, #C6C7FB 0%,#E3E4FD 50%, #FFFFFF 100%);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 7px 9px 3px -4px rgba(0,0,0,0.51);
+  }
+  
+  .light-theme{    /*light container */
+    background: linear-gradient(to right, #C6C7FB 0%,#E3E4FD 70%, #FFFFFF 100%);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 7px 9px 3px -4px rgba(0,0,0,0.51);
+  }
+  
+  .form-search1 {
+    font-family: "FontAwesome";
+    width: 50%;
+    height:2.5rem;
+    border:0;
+    border-radius: 10px;
+  }
+  
+  .form-search1::placeholder{
+    text-align: left; 
+    color: blue;
+    font-size:1.6rem;
+    padding-left: 2%;
+    vertical-align: middle !important;
+  }
+  
+  
+  /*SIDEBAR ICONS */
+  .song-icons{
+    background: linear-gradient(to right, #0a0350 30%,#C6C7FB 80%,#E3E4FD 100%);
+    background-clip: none;
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:2rem;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .logo-png{
+    padding-top: 10%;
+    padding-bottom:30%;
+  }
+  
+  
+  .new-r-heading{
+    font-size:1.7rem;
+    margin-left:5%;
+  }
+  
+  .new-parent {
+      width: 100%;
+      overflow: hidden;
+    margin: auto;
+    margin-right:10% !important;
+  }
+  
+  
+  .new-slider-container {
+    overflow-x: hidden;
+    height:15rem;
+    padding: 3px;
+    margin-right:5%;
+    margin-left:5%; 
+    scroll-behavior: smooth;
+  }
+  
+  .song-slider-container {
+    overflow-x: hidden;
+    height:15rem;
+    padding: 3px;
+    margin-right:5%;
+    margin-left:5%; 
+    scroll-behavior: smooth;
+  }
+  
+  .new-slider-wrapper {
+      display: flex;
+      width: 100%;
+  }
+  
+  .new-prev {
+    left: 1rem;
+    font-size:1.2rem;
+  }
+  
+  .new-next {
+    right: 1rem;
+    font-size:1.2rem;
+  }
+  
+  .new-disable {
+      opacity: 0.5;
+   pointer-events: none;
+  }
+  
+  .new-child{
+    height:10rem;
+    width:10rem;
+    margin-right: 20px;
+  }
+  
+  .new-img{
+    height:10rem;
+    width:10rem;
+  }
+  
+  .song-name-s{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:0.8rem;
+    padding-top:2px;
+  }
+  
+  .artist-name-s{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size:0.7rem;
+  }
+  
+  .song-navbar{
+    margin-left:5%;
+  }
+  
+  .song-item-nav{
+    margin-right:8%;
+    font-size:1.1rem;
+  }
+  
+  .music-links{
+    color: rgb(24, 23, 23) !important;
+    font-weight:400;
+  }
+  
+  .playlist-name,.song-length,.album-name,.genre-name,.artist-name{
+    color:black !important;
+    font-weight:600;
+  }
+  
+  .theme-purple{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right:15px;
+    background-image: linear-gradient(221deg, rgba(10,3,80,1) 50%, rgba(198,199,251,1) 75%, rgba(227,228,253,1) 100%) ;
+    border-radius: 50%;
+    color:white;
+  }
+  
+  .theme-dark{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    padding-right:10px !important;
+    background-image: linear-gradient(221deg, rgba(10,3,80,1) 50%, rgba(198,199,251,1) 75%, rgba(227,228,253,1) 100%) !important ;
+    border-radius: 50% !important;
+    color:white;
+  }
+  .padd-play-pause{
+    padding-top: 12px !important;
+  }
+  
+  #songname{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  #artistname{
+    font-size: 1rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    .new-r-heading{
+      font-size:1rem;
+      margin-left:5%;
+    }
+  
+    .new-prev {
+      left: 1rem;
+      font-size:1rem;
+    }
+    
+    .new-next {
+      right: 1rem;
+      font-size:1rem;
+    }
+  
+    .song-navbar{
+      margin-left:2%;
+    }
+  
+    .song-item-nav{
+      margin-right:0;
+      font-size:0.8rem;
+    }
+  
+    .new-slider-container{
+      height:23rem;
+    }
+  
+    .song-slider-container{
+      height:23rem;
+    }
+  
+    .new-child{
+      height:11rem;
+      width:8rem;
+    }
+  
+    .new-img{
+      height:6rem;
+      width:6rem;
+    }
+  
+  }
+  
+  .songbar{
+    height: 11px;
+    -webkit-appearance: none;
+    width: 80%;
+    background-color: transparent;
+  }
+  
+  .songbar:focus {
+    outline: none;
+  }
+  
+  .songbar::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000;
+    background: #aaacee;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+  
+  .songbar::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 4px solid #E3E4FD;
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background:linear-gradient(to right, #0a0350 50%,#C6C7FB 80%,#E3E4FD 100%);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+  
+  .songbar:focus::-webkit-slider-runnable-track {
+    background: #E3E4FD;
+  }
+  
+  .songbar::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #000000;
+    background: #E3E4FD;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+  
+  .songbar::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 6px solid #E3E4FD;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #0a0350;
+    cursor: pointer;
+  }
+  
+  .songbar::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  
+  .songbar::-ms-fill-lower {
+    background: #E3E4FD;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  .songbar::-ms-fill-upper {
+    background: #E3E4FD;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  .songbar::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #E3E4FD;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .songbar:focus::-ms-fill-lower {
+    background: #E3E4FD;
+  }
+  .songbar:focus::-ms-fill-upper {
+    background: #E3E4FD;
+  }
