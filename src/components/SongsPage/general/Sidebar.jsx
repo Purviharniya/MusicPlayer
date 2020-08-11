@@ -6,7 +6,7 @@ class Sidebar extends Component {
             <div className="col-2 col-md-1 song-sidebar">
                         <div className="d-flex flex-column text-center">
                             <div className="logo-png">
-                                <img src={require('../../../assets/Songspage/logo.png')} width="70" height="80" alt="logo" />
+                                <img src={require('../../../assets/Songspage/logo.png')} className="side-logo" alt="logo" />
                             </div>
                             <Link to="/">
                                 <i className="fas fa-home song-icons py-4" />
