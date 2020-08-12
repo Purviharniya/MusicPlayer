@@ -39,7 +39,7 @@ function MusicBar(props)
 
     <div className="col-12 col-md-4">
         <div className="d-flex flex-row justify-content-center">
-            <img id="playerimg" width="70px" height="70px" src={props.musicImg} alt=" " className="img-thumbnail"/>
+            <img width="70px" height="70px" src={props.musicImg} alt=" " className="img-thumbnail"/>
             <div className="d-flex flex-column pl-3">
                 <span className="row no-gutters"  id="songname">{props.songname}</span>
                 <span className="row no-gutters" id="artistname">{props.artist}</span>

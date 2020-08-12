@@ -84,7 +84,7 @@ function SongsPage(){
                                     
                                     <div className="col-12">
                                     <Switch>
-                                        <Route exact path="/" component={AlbumSliderParent} />
+                                        <Route path="/" exact component={AlbumSliderParent} />
                                         <Route path="/albumlist/:albumid" exact render={(props) => <AlbumSongs fun={addSong} {...props} />} />
                                         <Route exact path="/playlist" component={PlaylistSliderParent} />
                                         <Route path="/playlist/:playlistid" exact render={(props) => <PlaylistSongs fun={addSong} {...props} />} />
