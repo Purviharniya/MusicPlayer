@@ -12,7 +12,8 @@ import GenreSliderParent from '../../components/SongsPage/Genres/GenreSliderPare
 import GenreSongs from '../../components/SongsPage/Genres/GenreSongs';
 import Navbar from '../../components/SongsPage/general/Navbar';
 import MusicBar from '../../components/SongsPage/general/MusicBar';
-import {BrowserRouter,Switch,Route} from 'react-router-dom';
+import { Route, Switch } from 'react-router';
+import { HashRouter as Router, Link } from 'react-router-dom';
 import './SongsPage.css';
 
 function SongsPage(){
@@ -64,7 +65,7 @@ function SongsPage(){
     var arr=music.slice(music.length-1,music.length);
 
         return (
-        <BrowserRouter>
+        <Router>
                  <div className="bg-bluishgreen">
                     <div className="light-theme">
                         <div className="row no-gutters">
@@ -111,7 +112,7 @@ function SongsPage(){
                         })} 
                     </div>  
                 </div>
-        </BrowserRouter>
+        </Router>
         );
     }
 
