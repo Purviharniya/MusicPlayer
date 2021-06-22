@@ -28,6 +28,8 @@
     height:2.5rem;
     border:0;
     border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
   }
   
   .form-search1::placeholder{
@@ -111,6 +113,7 @@
     height:10rem;
     width:10rem;
     margin-right: 20px;
+    cursor: pointer;
   }
   
   .new-img{
@@ -206,8 +209,16 @@
 
     .form-search1{
       width:70%;
+      outline: none;
+      border: none;
+      padding-left: 5px;
     }
-    
+
+    input[type="text"]:focus {
+      outline: none;
+      box-shadow:none !important;
+    }
+
     .new-next {
       right: 1rem;
       font-size:1rem;

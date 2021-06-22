@@ -6,7 +6,7 @@ class Topbar extends Component {
             <div className="row no-gutters">
                 <div className="col-12 pt-3 py-4 song-topbar">
                     <div className="clearfix">
-                        <input type="text" className="float-left form-search1 ml-2" placeholder="&#xf002;"/>
+                        <input type="text" className="float-left form-search1 ml-2 shadow-none" placeholder="🔎"/>
                         <div className="float-right align-middle pr-3">
                             <i className="fas fa-bars fa-xl song-icons" />
                         </div>
